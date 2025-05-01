@@ -22,6 +22,6 @@ Aplikasi ini dilengkapi dengan fitur utama, di antaranya:
 - button Keluar, digunakan ketika ingin keluar dari aplikasi.
 
 ![image alt](https://github.com/FirmaNahwaFirdaus/App_Sewa_Baju_Adat/blob/2db9ea961e045226c85aaafd87e94b0765a4b23f/Screenshot%202025-05-01%20190731.png?raw=true)
-![image alt](?raw=true)
+![image alt](https://github.com/FirmaNahwaFirdaus/App_Sewa_Baju_Adat/blob/7bd455a8f2e549e36bf20618c683f18a3f5e79f5/Screenshot%202025-05-01%20134146.png?raw=true)
 ![image alt](?raw=true)
 ![image alt](?raw=true)
