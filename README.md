@@ -21,7 +21,7 @@ Aplikasi ini dilengkapi dengan fitur utama, di antaranya:
 - button kembali, untuk kembali ke halaman sebelumnya.
 - button Keluar, digunakan ketika ingin keluar dari aplikasi.
 
-![image alt](?raw=true)
+![image alt](https://github.com/FirmaNahwaFirdaus/App_Sewa_Baju_Adat/blob/2db9ea961e045226c85aaafd87e94b0765a4b23f/Screenshot%202025-05-01%20190731.png?raw=true)
 ![image alt](?raw=true)
 ![image alt](?raw=true)
 ![image alt](?raw=true)
