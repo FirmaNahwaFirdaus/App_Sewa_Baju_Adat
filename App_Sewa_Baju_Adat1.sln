@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_Sewa_Baju_Adat", "App_Sewa_Baju_Adat\App_Sewa_Baju_Adat.csproj", "{54596B60-AC00-4C24-961E-D762A35F53DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54596B60-AC00-4C24-961E-D762A35F53DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54596B60-AC00-4C24-961E-D762A35F53DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54596B60-AC00-4C24-961E-D762A35F53DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54596B60-AC00-4C24-961E-D762A35F53DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {816F78D7-7B93-4D73-A58C-87F8ADAD9058}
+	EndGlobalSection
+EndGlobal
