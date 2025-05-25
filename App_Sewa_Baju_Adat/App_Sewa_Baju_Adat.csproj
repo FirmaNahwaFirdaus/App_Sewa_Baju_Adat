@@ -84,6 +84,7 @@
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -98,42 +99,55 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Edit.cs">
+    <Compile Include="Controllers\SewaController.cs" />
+    <Compile Include="Models\CRUD.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="Views\Edit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Edit.Designer.cs">
+    <Compile Include="Views\Edit.Designer.cs">
       <DependentUpon>Edit.cs</DependentUpon>
     </Compile>
-    <Compile Include="Riwayat.cs">
+    <Compile Include="Views\LaporanHarian.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Riwayat.Designer.cs">
+    <Compile Include="Views\LaporanHarian.Designer.cs">
+      <DependentUpon>LaporanHarian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Sewa.cs" />
+    <Compile Include="Views\Riwayat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Riwayat.Designer.cs">
       <DependentUpon>Riwayat.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main_Page.cs">
+    <Compile Include="Views\Main_Page.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main_Page.Designer.cs">
+    <Compile Include="Views\Main_Page.Designer.cs">
       <DependentUpon>Main_Page.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Views\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Views\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Edit.resx">
+    <EmbeddedResource Include="Views\Edit.resx">
       <DependentUpon>Edit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Riwayat.resx">
+    <EmbeddedResource Include="Views\LaporanHarian.resx">
+      <DependentUpon>LaporanHarian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Riwayat.resx">
       <DependentUpon>Riwayat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main_Page.resx">
+    <EmbeddedResource Include="Views\Main_Page.resx">
       <DependentUpon>Main_Page.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="Views\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -159,5 +173,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
